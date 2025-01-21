@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+
+             <div class="box">
+                <form onsubmit="calculatemarks(event)"
+                 class="calculate-form" 
+                 id="calculateForm">
+                    <input type="number" name="Maths" placeholder="Maths">
+                    <input type="number" name="Physics" placeholder="Physics">
+                    <input type="number" name="Chemistry" placeholder="Chemistry">
+                    <input type="number" name="Mechanics" placeholder="Mechanics">
+                    <button type="submit" class="button">Calculate</button>
+                </form>
+            </div>
+            <div class="content">
+                <h2>CLACULATE YOUR</h2>
+                <h1>PERCENTAGE</h1>
+            </div>
+        </div>
+       
+        
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
